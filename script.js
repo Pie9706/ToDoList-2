@@ -1,11 +1,13 @@
 let c = 0;
 
-function add() {
-  if (document.getElementById("btn1").value == "") alert("Scrivi qualcosa!!!");
-  else {
-    li.appendChild(document.getElementById("btn1").value);
-    c += 1;
-  }
+function aggiungi() {
+  /*if (aggiungi.value !== "") { 
+    const newLi = document.createElement("li");
+    newLi.textContent = aggiungi.value;
+    list.appendChild(newLi);
+  }*/ document
+    .getElementById("list")
+    .appendChild(document.getElementById("aggiungi"));
 }
 
 /*function cut(string) {
